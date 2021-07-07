@@ -76,3 +76,40 @@ class App extends Component {
 
 export default App;
 ```
+The result is :
+![](assets/hello.png)
+
+# What's Next?
+Now you have a React Environment on your computer, and you are ready to learn more about React.
+
+If you want to follow the same steps on your computer, start by stripping down the src folder to only contain two files: index.js and index.html, in some builds you might find the index.html in the public folder instead, you should also remove any unnecessary lines of code inside the two files to make them look like the files in the Show React tool below:
+
+Example
+Click the "Run Example" button to see the result.
+
+index.js:
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const myfirstelement = <h1>Hello React!</h1>
+
+ReactDOM.render(myfirstelement, document.getElementById('root'));
+```
+
+index.html:
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+  </head>
+  <body>
+
+    <div id="root"></div>
+
+  </body>
+</html>
+```
