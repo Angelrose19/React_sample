@@ -56,9 +56,10 @@ Try changing the HTML content and save the file.
 
 Notice that the changes are visible immediately after you save the file, you do not have to reload the browser!
 
-Example
+Example: 
+```javascript
 Replace all the content inside the <div className="App"> with a <h1> element.
-
+```
 See the changes in the browser when you click Save.
 
 ```javascript
