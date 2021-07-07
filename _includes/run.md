@@ -52,3 +52,27 @@ class App extends Component {
 
 export default App;
 ```
+Try changing the HTML content and save the file.
+
+Notice that the changes are visible immediately after you save the file, you do not have to reload the browser!
+
+Example
+Replace all the content inside the <div className="App"> with a <h1> element.
+
+See the changes in the browser when you click Save.
+
+```javascript
+import React, { Component } from 'react';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello World!</h1>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
