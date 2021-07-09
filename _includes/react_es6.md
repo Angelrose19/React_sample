@@ -167,3 +167,40 @@ window.addEventListener("load", myheader.changeColor);
 //A button object calls the function:
 document.getElementById("btn").addEventListener("click", myheader.changeColor);
 ```
+Example
+With an arrow function, this represents the Header object no matter who called the function:
+```javascript
+class Header {
+  constructor() {
+    this.color = "Red";
+  }
+
+//Arrow function:
+  changeColor = () => {
+    document.getElementById("demo").innerHTML += this;
+  }
+}
+
+myheader = new Header();
+
+
+//The window object calls the function:
+window.addEventListener("load", myheader.changeColor);
+
+//A button object calls the function:
+document.getElementById("btn").addEventListener("click", myheader.changeColor);
+```
+## Variables
+Before ES6 there were only one way of defining your variables: with the var keyword. If you did not define them, they would be assigned to the global object. Unless you were in strict mode, then you would get an error if your variables were undefined.
+
+Now, with ES6, there are three ways of defining your variables: var, let, and const.
+
+var
+```javascript
+var x = 5.6;
+```
+If you use var outside of a function, it belongs to the global scope.
+
+If you use var inside of a function, it belongs to that function.
+
+If you use var inside of a block, i.e. a for loop, the variable is still available outside of that block.
