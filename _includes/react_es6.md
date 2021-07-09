@@ -155,7 +155,8 @@ The first example uses a regular function, and the second example uses an arrow 
 
 The result shows that the first example returns two different objects (window and button), and the second example returns the Header object twice.
 
-Example
+Example :
+
 With a regular function, this represents the object that called the function:
 ```javascript
 class Header {
@@ -177,7 +178,8 @@ window.addEventListener("load", myheader.changeColor);
 //A button object calls the function:
 document.getElementById("btn").addEventListener("click", myheader.changeColor);
 ```
-Example
+Example :
+
 With an arrow function, this represents the Header object no matter who called the function:
 ```javascript
 class Header {
