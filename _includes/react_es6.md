@@ -27,7 +27,8 @@ class Car {
   }
 }
 ```
-Example
+Example :
+
 Create an object called "mycar" based on the Car class:
 ```javascript
 class Car {
