@@ -127,12 +127,14 @@ hello = () => "Hello World!";
 If you have parameters, you pass them inside the parentheses:
 
 Arrow Function With Parameters:
+
 ```javascript
 hello = (val) => "Hello " + val;
 ```
 In fact, if you have only one parameter, you can skip the parentheses as well:
 
 Arrow Function Without Parentheses:
+
 ```javascript
 hello = val => "Hello " + val;
 ```
