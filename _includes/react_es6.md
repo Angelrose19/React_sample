@@ -66,7 +66,8 @@ To create a class inheritance, use the extends keyword.
 
 A class created with a class inheritance inherits all the methods from another class:
 
-Example
+Example :
+
 Create a class named "Model" which will inherit the methods from the "Car" class:
 ```javascript
 class Car {
