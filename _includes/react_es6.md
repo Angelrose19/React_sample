@@ -195,7 +195,7 @@ Before ES6 there were only one way of defining your variables: with the var keyw
 
 Now, with ES6, there are three ways of defining your variables: var, let, and const.
 
-var
+**var**
 ```javascript
 var x = 5.6;
 ```
@@ -204,3 +204,16 @@ If you use var outside of a function, it belongs to the global scope.
 If you use var inside of a function, it belongs to that function.
 
 If you use var inside of a block, i.e. a for loop, the variable is still available outside of that block.
+
+var has a function scope, not a block scope.
+
+**let**
+```javascript
+let x = 5.6;
+```
+let has a block scope.
+
+let is the block scoped version of var, and is limited to the block (or expression) where it is defined.
+
+If you use let inside of a block, i.e. a for loop, the variable is only available inside of that loop.
+
