@@ -217,3 +217,10 @@ let is the block scoped version of var, and is limited to the block (or expressi
 
 If you use let inside of a block, i.e. a for loop, the variable is only available inside of that loop.
 
+**const**
+```javascript
+const x = 5.6;
+```
+const is a variable that once it has been created, its value can never change.
+
+const has a block scope.
