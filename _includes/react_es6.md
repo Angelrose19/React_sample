@@ -138,8 +138,8 @@ Arrow Function Without Parentheses:
 ```javascript
 hello = val => "Hello " + val;
 ```
-## What About this?
-The handling of **this** is also different in arrow functions compared to regular functions.
+## What About **_this_** ?
+The handling of **__this__** is also different in arrow functions compared to regular functions.
 
 In short, with arrow functions there are no binding of this.
 
