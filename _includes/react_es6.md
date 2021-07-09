@@ -102,12 +102,14 @@ Arrow functions were introduced in ES6.
 Arrow functions allow us to write shorter function syntax:
 
 Before :
+
 ```javascript
 hello = function() {
   return "Hello World!";
 }
 ```
 With Arrow Function:
+
 ```javascript
 hello = () => {
   return "Hello World!";
@@ -116,6 +118,7 @@ hello = () => {
 It gets shorter! If the function has only one statement, and the statement returns a value, you can remove the brackets and the return keyword:
 
 Arrow Functions Return Value by Default:
+
 ```javascript
 hello = () => "Hello World!";
 ```
