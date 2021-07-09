@@ -44,7 +44,8 @@ mycar = new Car("Ford");
 ### Method in Classes
 You can add your own methods in a class:
 
-Example
+Example :
+
 Create a method named "present":
 ```javascript
 class Car {
