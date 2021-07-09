@@ -139,7 +139,7 @@ Arrow Function Without Parentheses:
 hello = val => "Hello " + val;
 ```
 ## What About **_this_** ?
-The handling of **__this__** is also different in arrow functions compared to regular functions.
+The handling of **_this_** is also different in arrow functions compared to regular functions.
 
 In short, with arrow functions there are no binding of this.
 
